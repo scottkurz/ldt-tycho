@@ -3,3 +3,6 @@ target/
 .class
 .metadata
 bin/
+*/.polyglot*
+.project
+.settings
