@@ -2,7 +2,7 @@
 <feature
       id="skurz.tycho.feature"
       label="Feature"
-      version="1.0.0.qualifier"
+      version="1.0.0.liberty"
       provider-name="skurz">
 
    <description url="http://www.example.com/description">
@@ -18,50 +18,14 @@
    </license>
 
    <plugin
-         id="com.vogella.tycho.plugin1"
+         id="skurz.tycho.logger"
          download-size="0"
          install-size="0"
          version="0.0.0"
          unpack="false"/>
 
    <plugin
-         id="com.vogella.tycho.p2.ui"
-         download-size="0"
-         install-size="0"
-         version="0.0.0"
-         unpack="false"/>
-
-   <plugin
-         id="org.slf4j.api"
-         download-size="0"
-         install-size="0"
-         version="0.0.0"
-         unpack="false"/>
-
-   <plugin
-         id="ch.qos.logback.core"
-         download-size="0"
-         install-size="0"
-         version="0.0.0"
-         unpack="false"/>
-
-   <plugin
-         id="ch.qos.logback.slf4j"
-         download-size="0"
-         install-size="0"
-         version="0.0.0"
-         fragment="true"
-         unpack="false"/>
-
-   <plugin
-         id="ch.qos.logback.classic"
-         download-size="0"
-         install-size="0"
-         version="0.0.0"
-         unpack="false"/>
-
-   <plugin
-         id="com.vogella.logging.config"
+         id="liberty"
          download-size="0"
          install-size="0"
          version="0.0.0"
